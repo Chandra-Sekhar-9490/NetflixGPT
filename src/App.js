@@ -1,7 +1,7 @@
-import "./App.css";
+import Body from "./components/Body";
 
 function App() {
-  return <p className="text-3xl font-bold">Netflix</p>;
+  return <Body />;
 }
 
 export default App;
