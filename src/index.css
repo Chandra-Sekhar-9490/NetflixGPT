@@ -1,3 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Hide scrollbar for Chrome, Safari, and Edge */
+.custom-scroll::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for Firefox */
+.custom-scroll {
+  scrollbar-width: none;
+}
+
+/* Hide scrollbar for IE, Edge, and older versions of Safari */
+.custom-scroll {
+  -ms-overflow-style: none;
+}
